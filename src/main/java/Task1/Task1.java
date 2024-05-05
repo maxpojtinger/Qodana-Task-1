@@ -66,8 +66,8 @@ public class Task1 {
         Let's use the notation (a1, a2) for saying the letter a1 needs to come before the letter a2
         (this means in any permutation of the English alphabet for which our list is lexicographically sorted,
         the letter a1 is placed further to the start of the permutation than the letter a2)
-        For example: (a,b), (b,a) are to contradictory dependencies
-                     (a,b), (b,c), (c,a) are to contradictory dependencies
+        For example: (a,b), (b,a) are contradictory dependencies
+                     (a,b), (b,c), (c,a) are contradictory dependencies
 
         Let us visualize the dependencies of our desired permutation as a graph,
         in which the nodes are all the common letters of the English alphabet and the vertices are the dependencies

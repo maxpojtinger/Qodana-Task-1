@@ -2,8 +2,6 @@ Test task 1
 
 Alex heard that the list of names in publications is sorted in lexicographical order. Alex is very vain, he tries to figure the alphabet in which his name will appear first in the publication. Help Alex to write a program that would calculate an alphabet in which a given list of names would be lexicographically sorted or determine that this is impossible.
 
-Programs are accepted in Java, Kotlin, Groovy. As an answer, please send a link to Github with the solution.
-
 Input:
 
 Sent to standard input. The first line contains an integer n (1 ≤ n ≤ 100), the number of names.

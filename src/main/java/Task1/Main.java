@@ -38,11 +38,6 @@ public class Main {
             The runtime complexity of scanning and splitting our input should be O(n*m) (n = number of input strings, m = maximum number of characters in our string)
             It may be possible to do this more efficiently, but because there is a limit of 100 names with 100 characters at most, I won't try to optimize it any further, since it won't make a practical difference.
             Doing it like this removes the necessity to sort the list of names by their placement stated in the integer part of the input strings separately.
-            However, by doing it like this, we need to trust the user to never denote input strings with integers already used or outside the boundaries (i ∈ [1,n]).
-            This is something you can easily fix. Just add a hash set, in which you're saving all denotations and then check with the contains method, if the number is already in our set.
-            Then you need to check every "parts[i]" separately for being inside our boundaries or not.
-            I'm also not checking for the 100 characters limit and for our string only containing small letters.
-            I'm trusting you guys for only using words like name%i, just like you stated on your website.
              */
             Task1 task1 = new Task1(names);
             if(task1.isImpossible()){

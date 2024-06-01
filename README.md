@@ -1,4 +1,4 @@
-Test task 1
+This has been a test task for an application for an internship at JetBrains:
 
 Alex heard that the list of names in publications is sorted in lexicographical order. Alex is very vain, he tries to figure the alphabet in which his name will appear first in the publication. Help Alex to write a program that would calculate an alphabet in which a given list of names would be lexicographically sorted or determine that this is impossible.
 

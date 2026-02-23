@@ -24,8 +24,10 @@ public class Main {
             String[] parts;
             for(int i = 0; i < n; i++){
                 placeholder = scanner.nextLine().trim();
-                if (placeholder.isEmpty()) continue; // Überspringt leere Zeilen
-
+                if (placeholder.isEmpty()){
+                    i--;
+                    continue; // Überspringt leere Zeilen
+                }
                 parts = placeholder.split("(?<=\\D)(?=\\d)");
 
                 // Hat der Split funktioniert (gibt es ein Wort und eine Zahl)?
